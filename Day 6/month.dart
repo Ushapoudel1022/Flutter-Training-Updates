@@ -1,14 +1,22 @@
 /*void main() {
   month1("January");
-  month2(February);
-  month3(March);
-  month4(April);
-  month5(May);
-  month6(June)
+  month2("February");
+  month3("March");
+  month4("April");
+  month5("May");
+  month6("June");
+  month7("July");
+  month("August");
+  month("September");
+  month("October");
+  month("november");
+  month("December");
 }
 */
 void main(){
-  List<String> months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  months (List String  = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]){
+
+  }
   
   print(months);
 }
