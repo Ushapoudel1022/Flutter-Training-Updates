@@ -80,7 +80,8 @@ void main() {
   vehicle2.drive(400);
 
   ChildClassCar car1 = ChildClassCar("car", 4);
-  print(" Number of Doors: ${car1.numberOfDoors}");
+  print(
+      " Vehicle Type =  ${vehicle1.type}, Number of Doors: ${car1.numberOfDoors}");
 }
 
 class Vehicle {
